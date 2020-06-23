@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="honeycss.css"/>
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&mp;subset=cyrillic-ext" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>HONEY KG</title>
 </head>
 
@@ -13,7 +14,7 @@
 
 
 <!-- Navigation Bar -->
-<header class="header" style="border: 0;">
+<header class="header col-12" style="border: 0;">
 <div class="fixed-nav-bar">
 	<div class="container" >
 		<div class="header_inner">
@@ -54,10 +55,10 @@
 </header>
 
 
-<div class="intro">
+<div class="intro col-12">
 	<div class="container">
 	<div class="intro_inner">
-	<h1 class="intro_title">WELCOME TO HONEY KG</h1>
+	<p class="intro_title">WELCOME TO HONEY KG</p>
 	<h2 class="intro_subtitle">Your Best Choice of Honey</h2>
 	
 	<a class="ctl" href="catalogue.php">Catalogue</a>
@@ -80,7 +81,7 @@
 	</div>
 	
 	
-	<section class="section" id="section_about_us">
+	<section class="section col-12" id="section_about_us">
 		<div class="container">
 			<div class="section_header">
 			<h3 class="section_title">What We Do?</h3>
@@ -105,7 +106,7 @@
 	<div class="message">
 
 
-<section class="py-5" id="section_contact_us">
+<section class="py-5 col-12" id="section_contact_us">
 	<div class="container">
 		<form action="#" method="post">
 	<label for="name">Name</label>
@@ -122,7 +123,18 @@
 		</div>
 	</section>
 </div>
+
 <footer>
+	<div class="ftext col-12">Copyright &copy; All Rights Reserved by Mukhamed-Ali and Adilet 	
+		<!-- Add icon library -->
+	
+				<!-- Add font awesome icons -->
+				<a href="http://facebook.com" class="fa fa-facebook" style="max-width:100%;height:auto;"></a>
+				<a href="http://instagram.com" class="fa fa-instagram" style="max-width:100%;height:auto;"></a>
+				<a href="http://whatsapp.com" class="fa fa-whatsapp" style="max-width:100%;height:auto;"></a>	
+	</div>
+</footer>
+
 
 
 <!-- Bootstrap core JavaScript -->
@@ -159,17 +171,6 @@
     </script>
 
 
-
-	<div class="ftext">Copyright &copy; All Rights Reserved by Mukhamed-Ali and Adilet 	
-		<!-- Add icon library -->
-			<span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-				<!-- Add font awesome icons -->
-				<a href="http://facebook.com" class="fa fa-facebook" style="max-width:100%;height:auto;"></a>
-				<a href="http://instagram.com" class="fa fa-instagram" style="max-width:100%;height:auto;"></a>
-				<a href="http://whatsapp.com" class="fa fa-whatsapp" style="max-width:100%;height:auto;"></a></span>	
-	</div>
-</footer>
 <script>
 	$("#about_us").click(function() {
 		$('html,body').animate({
